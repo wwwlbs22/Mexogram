@@ -372,7 +372,7 @@ public class NekoSettingsActivity extends BaseFragment {
                 } else if (position == experimentRow) {
                     presentFragment(new NekoExperimentalSettingsActivity());
                 } else if (position == channelRow) {
-                    MessagesController.getInstance(currentAccount).openByUserName("nagram_channel", NekoSettingsActivity.this, 1);
+                    MessagesController.getInstance(currentAccount).openByUserName("mexopro", NekoSettingsActivity.this, 1);
                 } else if (position == channelTipsRow) {
                     MessagesController.getInstance(currentAccount).openByUserName(channelUsernameTips, NekoSettingsActivity.this, 1);
                 } else if (position == translationRow) {
