@@ -415,7 +415,6 @@ public class NekoSettingsActivity extends BaseFragment {
             } else {
                 channelRow = rowCount++;
                 channelTipsRow = rowCount++;
-                sourceCodeRow = rowCount++;
                 translationRow = rowCount++;
                 datacenterStatusRow = rowCount++;
             }
