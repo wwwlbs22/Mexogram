@@ -10,8 +10,8 @@ import org.telegram.ui.ActionBar.AlertDialog
 
 object UpdateUtil {
 
-    const val channelUsername = "nagram_channel"
-    const val channelUsernameTips = "NagramTips"
+    const val channelUsername = "mexopro"
+    const val channelUsernameTips = "mexopro"
     const val wikiUrl = "https://na-wiki.xtaolabs.com"
 
     @JvmStatic
@@ -51,8 +51,8 @@ object UpdateUtil {
     }
 
     private fun checkFollowChannel(ctx: Context, currentAccount: Int, channel: TLRPC.Chat) {
-
         if (!channel.left || channel.kicked) {
+
 
             //   MessagesController.getMainSettings(currentAccount).edit().putBoolean("update_channel_skip", true).apply()
 
